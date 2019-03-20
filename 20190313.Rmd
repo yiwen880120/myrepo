@@ -52,3 +52,28 @@ c <- 5
 `107上學期我的平均成績`
 ```
 
+#numeric class 查詢物件類別
+
+```{r}
+class(a)
+```
+
+```{r}
+a <- 2
+a2 <- 2L
+```
+
+```{r}
+class(a2)
+```
+
+```{r}
+aVector<-c(5,6,7)
+a2Vector<-c(5L,6L,7L)
+```
+
+```{r}
+class (aVector)
+class (a2Vector)
+```
+
